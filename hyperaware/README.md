@@ -1,5 +1,8 @@
 # The Hyperaware Protocol
 
+[![hackmd-github-sync-badge](https://hackmd.io/Nhj67WrvS4GKPHiqMQFtKw/badge)](https://hackmd.io/Nhj67WrvS4GKPHiqMQFtKw)
+
+
 _A spatial governance protocol for connected devices_
 
 
