@@ -66,7 +66,14 @@ First, Spatial.sol has a dependency: Trigonometry.sol, developed and open source
 
 We are working to design the most appropriate architecture, working out how these primitives could fit together. Spatial.sol - especially if we incorporate raster processing algorithms - will be useful in many Astral dApps. 
 
-Verified spatial data registries
+
+| | |
+| --- | --- | 
+| Solidity engineers | 3 months (?) | 
+| Audit | ? |
+| Target deliverable | `Spatial.sol v0.0`, `Trigonometry.sol v0.0` | 
+
+## Verified spatial data registries
 
 Leveraging GeoDIDs and Spatial.sol, we are early in the process of developing a standard contract for creating spatial data registries. There is a wide breadth of opportinities in this design space as well. The more interesting ones - and the ones specific to Astral - take into account spatial dimensions to the registration of records. 
 
@@ -86,6 +93,16 @@ Another idea, being developed by community members blairvee and johnx25bd, are t
 We are curious what kind of opportunities could be created if we could detect and, eventually, arbitrate this kind of 'topological collision' - disputed borders - in a fully decentralized and trustless way. This type of contract  will be required for many different applications including land registries, insurance, spatial finance applications, location-based governance apps, local currencies, location-based NFTs etc etc. 
 
 We're researching how to efficiently design a system that would enable this kind of a spatial data registry, along with requirements. We're trying to work out exactly what the needs might be - tough without any user engagement or feedback from the market - but we anticipate that this will emerge as a contract standard. We can imagine lots of variations of this type of contract deployed, each storing its own registry of polygons - for mobility apps, administrative jurisdictions, maritime governance zones, restricted airspace etc etc etc. The spatial reference system is configurable - so it could define zones in relation to the sun, another planet, a vehicle, and so on. Such a standard would contribute to composability of these spatial dApps.
+
+
+| | |
+| --- | --- | 
+| Protocol engineer | 3 months |
+| Solidity engineer | 3 months | 
+| Typescript developer | 1 month |
+| Audit | ? |
+| Dependencies | | 
+| Target deliverable | EIP? White paper? ERCx standard contract. ERCx.js package. | 
 
 ---
 
