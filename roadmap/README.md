@@ -73,7 +73,7 @@ We are working to design the most appropriate architecture, working out how thes
 | Audit | ? |
 | Target deliverable | `Spatial.sol v0.0`, `Trigonometry.sol v0.0` | 
 
-## Verified spatial data registries
+## Verifiable spatial data registries
 
 Leveraging GeoDIDs and Spatial.sol, we are early in the process of developing a standard contract for creating spatial data registries. There is a wide breadth of opportinities in this design space as well. The more interesting ones - and the ones specific to Astral - take into account spatial dimensions to the registration of records. 
 
